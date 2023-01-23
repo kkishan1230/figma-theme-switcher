@@ -2,7 +2,6 @@ import React from "react";
 import open_feature from "../images/openfeature.svg";
 import design from "../images/doodle.svg";
 import brush from "../images/paint_brush.svg";
-import YoutubePlayer from "./YoutubePlayer";
 
 const Feature_section = () => {
   return (
