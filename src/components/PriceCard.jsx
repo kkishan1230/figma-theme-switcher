@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceCard = () => {
   return (
-    <div className="w-[335px] bg-[#ffffff] flex flex-col items-center pt-[43px] pb-[40px] rounded-[10px] shadow-[0_13px_19px_rgba(0,0,0,0.7)]">
+    <div className="w-[335px] bg-[#ffffff] flex flex-col items-center pt-[43px] pb-[40px] rounded-[10px] shadow-[0_13px_19px_rgba(0,0,0,0.7)] price_card">
       <h3 className="">FREE</h3>
       <p className="common-text w-[158px] mt-[3px]">
         Organize across all apps by hand

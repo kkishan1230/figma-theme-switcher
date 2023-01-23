@@ -40,7 +40,6 @@ const Feature_section = () => {
           </p>
         </div>
       </div>
-      {/* <YoutubePlayer /> */}
     </div>
   );
 };

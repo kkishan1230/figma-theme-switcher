@@ -140,3 +140,23 @@ textarea {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+
+.price_card {
+  border: 1px solid #dedede;
+}
+
+.price_card:hover {
+  padding-top: 86px;
+  padding-bottom: 43px;
+  transition: all 0.3s;
+  background-color: #2091f9;
+}
+.price_card:hover p,
+.price_card:hover h1,
+.price_card:hover h3 {
+  color: #ffffff;
+}
+.price_card:hover > button {
+  color: #2091f9;
+  background: #ffffff;
+}
