@@ -6,6 +6,9 @@ import Prototyping from "../components/Prototyping";
 import Organise from "../components/Organise";
 import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonials";
+import Pricing from "../components/Pricing";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
       <Prototyping />
       <Partners />
       <Testimonials />
+      <Pricing />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };

@@ -86,7 +86,6 @@ p {
   margin-inline: auto;
 }
 
-/* banner section */
 .banner {
   background: url("./images/banner.png") no-repeat center;
   background-size: cover;
@@ -108,8 +107,8 @@ body {
   padding-bottom: 500px;
 }
 
-.client-name {
-  font-family: "Graphik";
+.common-text {
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -126,4 +125,12 @@ body {
 .google {
   padding-top: 31px;
   padding-bottom: 31px;
+}
+
+.form {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border: 1px solid #dddddd;
+}
+textarea {
+  resize: none;
 }

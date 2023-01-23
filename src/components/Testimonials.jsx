@@ -18,8 +18,8 @@ const Testimonials = () => {
           <img src={client_img} alt="" />
         </div>
         <div className="flex flex-col justify-around pl-[13px]">
-          <p className="client-name text-left">Organize across</p>
-          <p className="client-name text-left">Ui designer</p>
+          <p className="common-text text-left">Organize across</p>
+          <p className="common-text text-left">Ui designer</p>
         </div>
       </div>
       <button className="btn w-[276px] h-[60px] rounded-[35px] mt-[83px]">
