@@ -5,6 +5,7 @@ import FeatureSection from "../components/FeatureSection";
 import Prototyping from "../components/Prototyping";
 import Organise from "../components/Organise";
 import Partners from "../components/Partners";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Organise />
       <Prototyping />
       <Partners />
+      <Testimonials />
     </div>
   );
 };
