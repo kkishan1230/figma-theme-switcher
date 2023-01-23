@@ -8,7 +8,7 @@ import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import ContactUs from "../components/ContactUs";
-import Footer from "../components/Footer";
+import Footer from "../components/footer-links/Footer";
 
 const Home = () => {
   return (

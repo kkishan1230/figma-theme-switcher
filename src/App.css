@@ -103,10 +103,6 @@ p {
   letter-spacing: 0.2px;
 }
 
-body {
-  padding-bottom: 500px;
-}
-
 .common-text {
   font-family: "Rubik";
   font-style: normal;
@@ -133,4 +129,14 @@ body {
 }
 textarea {
   resize: none;
+}
+
+.footer_links {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
