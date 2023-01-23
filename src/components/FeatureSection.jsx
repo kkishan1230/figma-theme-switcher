@@ -2,6 +2,7 @@ import React from "react";
 import open_feature from "../images/openfeature.svg";
 import design from "../images/doodle.svg";
 import brush from "../images/paint_brush.svg";
+import VideoPlayer from "./VideoPlayer";
 
 const Feature_section = () => {
   return (
@@ -39,6 +40,9 @@ const Feature_section = () => {
             your financial goal.
           </p>
         </div>
+      </div>
+      <div className="w-fit mx-auto mt-[132px] ">
+        <VideoPlayer />
       </div>
     </div>
   );

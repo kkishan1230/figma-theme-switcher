@@ -143,6 +143,7 @@ textarea {
 
 .price_card {
   border: 1px solid #dedede;
+  cursor: pointer;
 }
 
 .price_card:hover {
@@ -159,4 +160,8 @@ textarea {
 .price_card:hover > button {
   color: #2091f9;
   background: #ffffff;
+}
+
+video {
+  border-radius: 45px;
 }
