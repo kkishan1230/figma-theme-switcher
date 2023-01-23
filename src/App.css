@@ -1,38 +1,121 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+/* default css and utility classes */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
   text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+p {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  max-width: 677px;
+  margin-inline: auto;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: #252b42;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #374754;
+}
+
+.btn {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #2091f9;
+  color: #ffffff;
+}
+
+.container-1440 {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.container-1243 {
+  max-width: 1243px;
+  margin-inline: auto;
+}
+
+/* banner section */
+.banner {
+  background: url("./images/banner.png") no-repeat center;
+  background-size: cover;
+}
+.icon {
+  cursor: pointer;
+}
+
+.tag-line {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+}
+
+body {
+  padding-bottom: 500px;
+}
+
+.client-name {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+
+.padding_y {
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
