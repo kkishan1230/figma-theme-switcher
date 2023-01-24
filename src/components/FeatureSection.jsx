@@ -9,7 +9,6 @@ const Feature_section = () => {
   const videoRef = useRef();
   const progress_bar_ref = useRef();
   const [show_btn, setShow_btn] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(false);
   const [current_time, setCurrentTime] = useState(0);
   const [duration_time, setDurationTime] = useState(0);
 
@@ -21,12 +20,11 @@ const Feature_section = () => {
   };
   const pause_video = () => {
     videoRef.current.pause();
-    setIsPlaying(false);
+
     setDurationTime(videoRef.current.duration);
   };
   const play_video = () => {
     videoRef.current.play();
-    setIsPlaying(true);
     setDurationTime(videoRef.current.duration);
   };
 
@@ -85,7 +83,6 @@ const Feature_section = () => {
           type="range"
           name="video_play"
           className="absolute bottom-[-10px] z-10 w-[80%] video_progress opacity-0"
-          // value={(current_time / duration_time) * 100}
           defaultValue={0}
         />
         <div
