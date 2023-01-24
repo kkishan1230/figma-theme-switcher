@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import open_feature from "../images/openfeature.svg";
 import design from "../images/doodle.svg";
 import brush from "../images/paint_brush.svg";
-import VideoPlayer from "./VideoPlayer";
+import Playbtn from "./Playbtn";
+import video from "../video/video.mp4";
 
 const Feature_section = () => {
+  const [show_btn, setShow_btn] = useState(true);
+  const show_fn = () => {
+    setShow_btn(!show_btn);
+  };
+  const display_btn = () => {
+    setShow_btn(true);
+  };
+  const pause_video = () => {
+    videoRef.current.pause();
+  };
+  const play_video = () => {
+    videoRef.current.play();
+  };
+
+  const videoRef = useRef();
+
   return (
     <div className="text-center mt-[126px]">
       <h2 className="text-[#252B42] mb-[27px]">Features</h2>
@@ -41,8 +58,26 @@ const Feature_section = () => {
           </p>
         </div>
       </div>
-      <div className="w-fit mx-auto mt-[132px] ">
-        <VideoPlayer />
+      <div className="w-fit mx-auto mt-[132px] relative flex items-center justify-center">
+        <div
+          className="absolute cursor-pointer z-10"
+          onClick={() => {
+            show_fn();
+            play_video();
+          }}
+        >
+          {show_btn && <Playbtn />}
+        </div>
+        <div
+          onClick={() => {
+            pause_video();
+            display_btn();
+          }}
+        >
+          <video width="1175" height="658" ref={videoRef}>
+            <source src={video} type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
   );

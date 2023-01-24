@@ -148,9 +148,10 @@ textarea {
 
 .price_card:hover {
   padding-top: 86px;
-  padding-bottom: 43px;
+  padding-bottom: 83px;
   transition: all 0.3s;
   background-color: #2091f9;
+  margin-top: -3px;
 }
 .price_card:hover p,
 .price_card:hover h1,
@@ -163,5 +164,7 @@ textarea {
 }
 
 video {
-  border-radius: 45px;
+  border-radius: 44.8px;
+  filter: drop-shadow(0px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
+  cursor: pointer;
 }
