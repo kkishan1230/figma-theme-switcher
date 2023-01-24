@@ -168,3 +168,9 @@ video {
   filter: drop-shadow(0px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
   cursor: pointer;
 }
+
+.player-container:hover .video_progress {
+  transition: all 0.3s;
+  bottom: 30px;
+  opacity: 1;
+}
