@@ -3,7 +3,7 @@ import playbtn from "../images/play button.png";
 
 const Playbtn = () => {
   return (
-    <div className="">
+    <div className="lg:w-16">
       <img src={playbtn} alt="" />
     </div>
   );

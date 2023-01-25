@@ -13,7 +13,7 @@ import Footer from "../components/footer-links/Footer";
 const Home = () => {
   return (
     <div>
-      <div className="banner h-[53.27vw]">
+      <div className="banner h-[53.27vw] lg:h-[620px] xl2:h-[750px]">
         <div className="container-1440">
           <Navbar />
           <BannerSection />

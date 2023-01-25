@@ -10,16 +10,16 @@ const Partners = () => {
   return (
     <div className="container-1440 text-center pt-[130px] pb-[80px] ">
       <h2 className="mb-[27px]">Partners</h2>
-      <p className="tag-line w-[532px] mx-auto mb-[90px]">
+      <p className="tag-line w-[532px] mx-auto mb-[90px] lg:mb-[20px]">
         Most calendars are designed for teams. Slate is designed for freelancers
       </p>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center lg:flex-wrap lg:max-w-[680px] lg:mx-auto">
         <Companies img_src={google} padding_y="31px" />
         <Companies img_src={amazon} padding_y="32px" />
         <Companies img_src={ms} padding_y="25px" />
         <Companies img_src={uber} padding_y="25px" />
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center lg:flex-wrap lg:max-w-[680px] lg:mx-auto ">
         <Companies img_src={dropbox} padding_y="40px" />
         <Companies img_src={google} padding_y="31px" />
         <Companies img_src={uber} padding_y="25px" />

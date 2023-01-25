@@ -4,9 +4,9 @@ import client_img from "../images/user.png";
 
 const Testimonials = () => {
   return (
-    <div className="container-1440px text-center pt-[111px] pb-[100px]">
-      <h2 className="mb-[90px]">Testimonials</h2>
-      <div className="w-[150px] mx-auto mb-[60px]">
+    <div className="max-w-[1440px] mx-auto text-center pt-[111px] pb-[100px] lg:max-w-[680px]">
+      <h2 className="mb-[90px] lg:mb-[30px]">Testimonials</h2>
+      <div className="w-[150px] mx-auto mb-[60px] lg:mb-[30px]">
         <img src={ibm} alt="" />
       </div>
       <p className="tag-line max-w-[967px] mx-auto">

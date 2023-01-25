@@ -8,14 +8,14 @@ import linked from "../images/linkedIn.svg";
 
 const ContactUs = () => {
   return (
-    <div className="container-1440 pt-[213px] pb-[102px]">
+    <div className="max-w-[1440px] mx-auto pt-[213px] pb-[102px] lg:max-w-[680px] xl2:max-w-[1100px] xl2:pt-[100px]">
       <h2 className="text-center">Contact Us</h2>
       <p className="tag-line w-[532px] mt-[27px] mb-[60px] mx-auto text-center">
         Most calendars are designed for teams. Slate is designed for freelancers
       </p>
-      <div className="flex max-w-[1228px] mx-auto justify-between">
-        <div className="w-[36.89%] px-[50px] py-[52px] flex flex-col gap-[45px] form rounded-[20px]">
-          <h3>Contact Us</h3>
+      <div className="flex max-w-[1228px] mx-auto justify-between lg:flex-col-reverse lg:max-w-[600px] xl2:max-w-[1100px] ">
+        <div className="w-[36.89%] px-[50px] py-[52px] flex flex-col gap-[45px] form rounded-[20px] lg:w-[100%] lg:p-12 xl2:p-7 xl2:gap-[20px]">
+          <h3 className="text-center">Contact Us</h3>
           <input
             type="text"
             placeholder="Your Name"
@@ -36,12 +36,12 @@ const ContactUs = () => {
           </button>
         </div>
         <div className="flex flex-col justify-between  pt-[29px] pb-[43px]">
-          <div className="flex items-center gap-[35px]">
+          <div className="flex items-center gap-[35px] flex-wrap justify-center ">
             <div className="">
               <div className="w-[25px] mx-auto ">
                 <img src={pin_location} alt="" />
               </div>
-              <p className="common-text max-w-[313px] text-center mt-[21px]">
+              <p className="common-text max-w-[313px] text-center mt-[21px] xl2:mt-[5px]">
                 6386 Spring St undefined Anchorage, Georgia 12473 United States
               </p>
             </div>
@@ -49,7 +49,7 @@ const ContactUs = () => {
               <div className="w-[21px] mx-auto">
                 <img src={phone} alt="" />
               </div>
-              <p className="common-text  text-center mt-[21px]">
+              <p className="common-text  text-center mt-[21px] xl2:mt-[5px]">
                 (843) 555-0130
               </p>
             </div>
@@ -57,12 +57,12 @@ const ContactUs = () => {
               <div className="w-[26px] mx-auto">
                 <img src={letter} alt="" />
               </div>
-              <p className="common-text text-center mt-[21px]">
+              <p className="common-text text-center mt-[21px] xl2:mt-[5px]">
                 willie.jennings@example.com
               </p>
             </div>
           </div>
-          <div className="w-[516px] h-[323px] mx-auto">
+          <div className="w-[516px] h-[323px] mx-auto lg:my-[20px] lg:w-[500px] lg:h-[300px] xl2:w-[300px] xl2:h-[200px]">
             <iframe
               title="skytech-map"
               className="iframe"
@@ -74,7 +74,7 @@ const ContactUs = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center xl2:justify-center">
             <div className="w-[33px]">
               <img src={twitter} alt="" />
             </div>

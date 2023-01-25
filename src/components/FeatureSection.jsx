@@ -34,7 +34,7 @@ const Feature_section = () => {
       <div className="tag-line text-[#374754] mx-auto max-w-[532px]">
         Most calendars are designed for teams. Slate is designed for freelancers
       </div>
-      <div className="flex text-center gap-[76px] justify-center mt-[97px]">
+      <div className="flex text-center gap-[76px] justify-center mt-[97px] lg:gap-[40px] lg:max-w-[680px] lg:mx-auto">
         <div className="max-w-[231px] ">
           <img
             alt=""
@@ -92,8 +92,7 @@ const Feature_section = () => {
           }}
         >
           <video
-            width="1175"
-            height="658"
+            className="lg:max-w-[520px]"
             ref={videoRef}
             onTimeUpdate={(e) => {
               setCurrentTime(videoRef.current.currentTime);
