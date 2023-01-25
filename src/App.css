@@ -21,6 +21,11 @@ nav a {
   color: #ffffff;
 }
 
+a:hover {
+  transition: all 0.2s;
+  opacity: 0.5;
+}
+
 img {
   width: 100%;
 }

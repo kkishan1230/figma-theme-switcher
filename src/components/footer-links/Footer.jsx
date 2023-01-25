@@ -5,11 +5,12 @@ import phone from "../../images/phone_white.svg";
 import twitter from "../../images/twitter_white.svg";
 import fb from "../../images/fb_white.svg";
 import linked from "../../images/in_white.svg";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="py-[150px] bg-[#252B42]">
-      <div className="max-w-[991px] flex justify-between mx-auto">
+      <div className="max-w-[991px] flex justify-between mx-auto lg:max-w-[680px]">
         <FooterLinks
           links_head="Pages"
           link1="Home"
@@ -50,15 +51,15 @@ const Footer = () => {
             <p className="footer_links">(239) 555-0108</p>
           </div>
           <div className="flex gap-[33px] mt-[42px] items-center">
-            <div>
+            <NavLink to="/">
               <img src={twitter} alt="" />
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to="/">
               <img src={fb} alt="" />
-            </div>
-            <div>
+            </NavLink>
+            <NavLink to="/">
               <img src={linked} alt="" />
-            </div>
+            </NavLink>
           </div>
         </div>
       </div>
