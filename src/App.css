@@ -26,6 +26,10 @@ a:hover {
   opacity: 0.5;
 }
 
+button:hover {
+  opacity: 0.8;
+}
+
 img {
   width: 100%;
 }
@@ -99,8 +103,6 @@ p {
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 40px;
   letter-spacing: 0.2px;
 }
 

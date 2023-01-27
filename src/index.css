@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .tag-line {
+    @apply text-[28px] leading-[40px];
+  }
+}

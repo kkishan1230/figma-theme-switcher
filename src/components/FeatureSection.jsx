@@ -29,12 +29,14 @@ const Feature_section = () => {
   };
 
   return (
-    <div className="text-center mt-[126px]">
-      <h2 className="text-[#252B42] mb-[27px]">Features</h2>
-      <div className="tag-line text-[#374754] mx-auto max-w-[532px]">
+    <div className="text-center mt-[126px] md:mt-[70px]">
+      <h2 className="text-[#252B42] mb-[27px] md:text-[36px] md:mb-0">
+        Features
+      </h2>
+      <div className="tag-line text-[#374754] mx-auto max-w-[532px] md:text-[24px]">
         Most calendars are designed for teams. Slate is designed for freelancers
       </div>
-      <div className="flex text-center gap-[76px] justify-center mt-[97px] lg:gap-[40px] lg:max-w-[680px] lg:mx-auto">
+      <div className="flex text-center gap-[76px] justify-center mt-[97px] md:mt-[50px] md:flex-col md:items-center lg:gap-[40px] lg:max-w-[680px] lg:mx-auto">
         <div className="max-w-[231px] ">
           <img
             alt=""
@@ -64,7 +66,7 @@ const Feature_section = () => {
           </p>
         </div>
       </div>
-      <div className="w-fit mx-auto mt-[132px] relative flex items-center justify-center player-container">
+      <div className="w-fit mx-auto mt-[132px] relative flex items-center justify-center player-container md:mt-[50px]">
         <div
           className="absolute cursor-pointer z-10"
           onClick={() => {
@@ -92,7 +94,7 @@ const Feature_section = () => {
           }}
         >
           <video
-            className="lg:max-w-[520px]"
+            className="md:w-[400px] lg:max-w-[520px]"
             ref={videoRef}
             onTimeUpdate={(e) => {
               setCurrentTime(videoRef.current.currentTime);
