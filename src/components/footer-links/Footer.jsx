@@ -9,8 +9,8 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="py-[150px] bg-[#252B42]">
-      <div className="max-w-[991px] flex justify-between mx-auto lg:max-w-[680px]">
+    <div className="py-[150px] bg-[#252B42] md:py-[100px]">
+      <div className="max-w-[991px] flex justify-between mx-auto lg:max-w-[680px] md:flex-wrap md:max-w-[500px]">
         <FooterLinks
           links_head="Pages"
           link1="Home"
@@ -37,7 +37,7 @@ const Footer = () => {
           link4="Marvin Hawkins"
           link5="Bruce Simmmons"
         />
-        <div className="pl-[50px]">
+        <div className="pl-[50px] md:pl-0 md:mt-[40px]">
           <div className="flex items-center gap-4 ml-[-5px]">
             <div className="w-[40px]">
               <img src={pin_location} alt="" />

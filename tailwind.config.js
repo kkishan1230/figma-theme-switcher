@@ -10,6 +10,7 @@ module.exports = {
       xl2: { max: "1440px" },
       lg: { max: "1180px" },
       md: { max: "720px" },
+      sm: { max: "580px" },
     },
   },
   plugins: [],

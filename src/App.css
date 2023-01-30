@@ -178,3 +178,23 @@ video {
   bottom: 30px;
   opacity: 1;
 }
+
+@media (max-width: 580px) {
+  .banner-head {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .testimonial-text {
+    font-weight: 700;
+  }
+  .user-name {
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .user-designation {
+    font-size: 13px;
+  }
+}
