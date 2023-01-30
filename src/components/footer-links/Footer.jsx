@@ -9,8 +9,8 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="py-[150px] bg-[#252B42] md:py-[100px]">
-      <div className="max-w-[991px] flex justify-between mx-auto lg:max-w-[680px] md:flex-wrap md:max-w-[500px]">
+    <div className="py-[150px] bg-[#252B42] md:py-[100px] sm:pt-[117px] sm:pb-[131px]">
+      <div className="max-w-[991px] flex justify-between mx-auto lg:max-w-[680px] md:flex-wrap md:max-w-[500px] sm:flex-col items-center sm:w-[80%] sm:gap-[83px]">
         <FooterLinks
           links_head="Pages"
           link1="Home"
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <p className="footer_links">(239) 555-0108</p>
           </div>
-          <div className="flex gap-[33px] mt-[42px] items-center">
+          <div className="flex gap-[33px] mt-[42px] items-center sm:justify-center">
             <NavLink to="/">
               <img src={twitter} alt="" />
             </NavLink>

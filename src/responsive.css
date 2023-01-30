@@ -2,18 +2,8 @@
   video {
     width: 800px;
   }
-  .pricing {
-    padding-top: 50px;
-  }
-
-  .price_card {
-    padding: 20px 0;
-  }
   .price_card:hover {
     padding: 40px 0;
-  }
-  .pricing-features {
-    gap: 0;
   }
   .price-tag-line {
     margin-bottom: 0;
