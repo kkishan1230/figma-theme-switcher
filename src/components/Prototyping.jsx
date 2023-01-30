@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import proto_img from "../images/letter.png";
 
 const Prototyping = () => {
