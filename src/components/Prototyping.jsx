@@ -1,4 +1,9 @@
 import proto_img from "../images/letter.png";
+import {
+  TextH2,
+  TextH3,
+  TextParagraph,
+} from "./globalComponents/globalComponents";
 
 const Prototyping = () => {
   return (
@@ -20,16 +25,24 @@ const Prototyping = () => {
           </div>
         </div>
         <div className="w-[50%] pl-[113px] md:pl-0 lg:w-[80%] xl2:pl-[40px] sm:w-[300px]">
-          <h3 className="md:text-center">At your fingertips</h3>
-          <h2 className="mt-4 w-[324px] mb-9 md:text-[36px] md:leading-[36px] md:text-center md:mx-auto sm:w-[300px] sm:mb-[27px]">
+          <TextH3 className="md:text-center" color="secondary">
+            At your fingertips
+          </TextH3>
+          <TextH2
+            className="mt-4 w-[324px] mb-9 md:text-[36px] md:leading-[36px] md:text-center md:mx-auto sm:w-[300px] sm:mb-[27px]"
+            color="secondary"
+          >
             <span className="sm:hidden">Lightning fast prototyping</span>
             <span className="hidden sm:block">Newsletter</span>
-          </h2>
+          </TextH2>
           <div className="pl-2 md:text-center sm:hidden">
-            <h3>Subscribe to our Newsletter</h3>
-            <p className="mb-[36px] md:text-[24px] md:max-w-[270px] md:mx-auto">
+            <TextH3 color="secondary">Subscribe to our Newsletter</TextH3>
+            <TextParagraph
+              className="mb-[36px] md:text-[24px] md:max-w-[270px] md:mx-auto"
+              color="secondary.lightGrey"
+            >
               Available exclusivery on Figmaland
-            </p>
+            </TextParagraph>
             <div className="flex gap-3 items-center md:flex-col">
               <input
                 type="text"

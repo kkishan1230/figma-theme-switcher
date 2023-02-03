@@ -5,17 +5,24 @@ import amazon from "../images/amazon.png";
 import ms from "../images/microsoft.png";
 import uber from "../images/uber.png";
 import dropbox from "../images/dropbox.png";
+import { TagLine, TextH2 } from "./globalComponents/globalComponents";
 
 const Partners = () => {
   return (
     <div className="container-1440 text-center pt-[130px] pb-[80px] md:pt-[100px]">
-      <h2 className="mb-[27px] md:text-[36px] md:leading-[36px] md:mb-[10px]">
+      <TextH2
+        className="mb-[27px] md:text-[36px] md:leading-[36px] md:mb-[10px]"
+        color="secondary"
+      >
         Partners
-      </h2>
-      <p className="tag-line w-[532px] mx-auto mb-[90px] lg:mb-[20px] sm:max-w-[300px] mt-[27px] sm:mb-[108px]">
+      </TextH2>
+      <TagLine
+        className="tag-line w-[532px] mx-auto mb-[90px] lg:mb-[20px] sm:max-w-[300px] mt-[27px] sm:mb-[108px]"
+        color="secondary.lightGrey"
+      >
         Most calendars are designed for teams.
         <span className="sm:hidden">Slate is designed for freelancers.</span>
-      </p>
+      </TagLine>
       <div className="flex items-center justify-center lg:flex-wrap lg:max-w-[680px] lg:mx-auto sm:gap-[30px]">
         <Companies img_src={google} padding_y="31px" />
         <Companies img_src={amazon} padding_y="32px" />

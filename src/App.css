@@ -37,12 +37,15 @@ img {
 h1,
 h2,
 h3,
+.h3,
+.h2,
+.h1,
 p {
   font-family: "Rubik", sans-serif;
   font-style: normal;
 }
 
-h1 {
+/* h1 {
   font-size: 74px;
   font-weight: 700;
   line-height: 84px;
@@ -50,31 +53,30 @@ h1 {
   color: #ffffff;
   max-width: 677px;
   margin-inline: auto;
-}
+} */
 
-h2 {
+/* h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 55px;
   letter-spacing: 0.2px;
-  color: #252b42;
-}
+} */
 
-h3 {
+/* h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
   color: #252b42;
-}
+} */
 
-p {
+/* p {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.2px;
   color: #374754;
-}
+} */
 
 .btn {
   font-family: "Rubik", sans-serif;
@@ -86,34 +88,9 @@ p {
   color: #ffffff;
 }
 
-.container-1440 {
-  max-width: 1440px;
-  margin-inline: auto;
-}
-
 .banner {
   background: url("./images/banner.png") no-repeat center;
   background-size: cover;
-}
-.icon {
-  cursor: pointer;
-}
-
-.tag-line {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-}
-
-.common-text {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.1px;
-  color: #374754;
 }
 
 .padding_y {
